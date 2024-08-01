@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 5rem;
+}
+
+input {
+    max-width: 30%;
+}
+
+.result {
+    max-width: 30%;
+    color: purple;
+}
