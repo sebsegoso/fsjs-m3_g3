@@ -30,11 +30,17 @@
 .
 .
 ├── README.md
-├── ejercicio_1.js
-├── ejercicio_2.js
-├── ejercicio_3.js
-├── ejercicio_4.js
-└── ejercicio_5.js
+├── css
+   └── styles.css
+├── js
+   └── ejercicio_1.js
+   └── ejercicio_2.js
+   └── ejercicio_3.js
+   └── ejercicio_4.js
+   └── ejercicio_5.js
+   └── main.js
+└── index.html
+
 
 ```
 
