@@ -37,7 +37,6 @@
    └── ejercicio_3.js
    └── ejercicio_4.js
    └── ejercicio_5.js
-   └── main.js
 └── index.html
 
 
