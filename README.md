@@ -27,8 +27,7 @@
 ## Estructura del proyecto
 
 ```
-.
-.
+
 ├── README.md
 ├── css
    └── styles.css
