@@ -42,7 +42,7 @@
 
 ```
 
-## Instruccciones
+## Instrucciones
 
 1. Ubicado en la carpeta raiz del proyecto en terminal debes ejecutar el comando presentado a continuación con el número del ejercicio correspondiente
 
