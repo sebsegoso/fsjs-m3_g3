@@ -3,16 +3,27 @@
  */
 
 function calcularTablas(num) {
-  console.log(`-- vamos con la tabla del ${num} --`);
-  const tablas = {};
+  // console.log(`-- vamos con la tabla del ${num} --`);
+  const tablas = [];
   for (let i = 1; i <= 12; i++) {
-    console.log(`${num} x ${i} = ${num * i}`);
-    tablas[i] = num;
+    tablas.push([`${num} x ${i} = ${num * i}`]);
+    tablas.push(["<br>"])
   }
-  console.log("--  --");
+  return tablas;
 }
 
-console.log(calcularTablas(1));
+function printTablas() {
+  const n = document.getElementById("ej-5-input-1").value;
+  const resultSpan = document.getElementById("ej-5-result");
+
+  if (Number.isInteger(Number(n))) {
+    const tablas = String(calcularTablas(n));
+    resultSpan.innerHTML = tablas.replace(/,/g, "");
+  } else {
+    alert("Ingrese un numero entero");
+  }
+}
+
 /* 
 -- vamos con la tabla del 1 --
 1 x 1 = 1
@@ -29,7 +40,6 @@ console.log(calcularTablas(1));
 1 x 12 = 12
 --  -- 
 */
-console.log(calcularTablas(9));
 /* 
 -- vamos con la tabla del 9 --
 9 x 1 = 9
